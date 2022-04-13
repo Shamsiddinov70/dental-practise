@@ -1,0 +1,34 @@
+.contact {
+    position: relative;
+    margin-left: 36px;
+
+    &::before {
+        width: 29px;
+        height: 29px;
+        background-image: url(../images/phone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        position: absolute;
+        background-size: contain;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -36px;
+        content: '';
+    }
+
+    &__text {
+        color: #272727;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 3px;
+        font-weight: 500;
+    }
+
+    &__num {
+        font-size: 14px;
+        line-height: 16px;
+        color: #272727;
+        font-weight: 300;
+    }
+}

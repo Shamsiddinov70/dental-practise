@@ -1,0 +1,86 @@
+.header {
+    padding-bottom: 52px;
+    background-color: $white;
+
+    &__top {
+
+    }
+
+    &__top-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__clock {
+        position: relative;
+
+        &::before {
+            width: 29px;
+            height: 29px;
+            background-image: url(../images/clock.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+            position: absolute;
+            background-size: contain;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -36px;
+            content: '';
+        }
+    }
+
+    &__clock-link {
+        font-size: 14px;
+        line-height: 16px;
+        color: #00B007;
+        margin-bottom: 3px;
+        font-weight: 500;
+    }
+
+    &__clock-text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #272727;
+    }
+
+    &__bottom {
+        background-color: $main-blue;
+        border-radius: 5px;
+        margin-top: 16px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__bottom-cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 23px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item-link {
+        font-size: 18px;
+        line-height: 21px;
+        color: $white;
+        font-weight: 400;
+        margin-right: 35px;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icons {
+        margin-left: 12px;
+    }
+
+}

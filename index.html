@@ -4,10 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dental</title>
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
+    <h1 class="visually-hidden">Dental practise</h1>
 
+    <header class="header">
+        <div class="header__top">
+            <div class="container header__top-content">
+                <a href="tel:+998991234567" class="contact">
+                    <p class="contact__text">
+                        Contact us
+                    </p>
+                    <p class="contact__num">
+                        +7(342)216-22-27
+                    </p>
+                </a>
+                <img src="./images/logo.svg"
+                alt="logo"
+                width="103"
+                height="56"
+                class="header__logo">
+                <div class="header__clock">
+                    <a href="#" class="header__clock-link">
+                        Open now
+                    </a>
+                    <p class="header__clock-text">
+                        Today we work until 19.00
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom container">
+            <div class="header__bottom-cont">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Services</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Advantages</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Team</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Reviews</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__item-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <div class="header__social">
+                    <a href="#" class="header__icons">
+                        <img src="./images/header-icon-kiss.svg" alt="icon"
+                        width="28"
+                        height="28"
+                        class="header__icon-img">
+                    </a>
+                    <a href="#" class="header__icons">
+                        <img src="./images/header-icon-insta.svg" alt="icon"
+                        width="16"
+                        height="16"
+                        class="header__icon-img">
+                    </a>
+                    <a href="#" class="header__icons">
+                        <img src="./images/header-icon-twitsvg.svg" alt="icon"
+                        width="18"
+                        height="18"
+                        class="header__icon-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <picture class="intro__img">
+            <source media="(max-width:375px)" srcset="images/intro-bg-img4.png">
+            <source media="(max-width:1024px)" srcset="images/intro-bg-img3.png">
+            <source media="(max-width:1440px)" srcset="images/intro-bg-img2.png">
+            <img src="images/intro-bg-img1.png" alt="Flowers" style="width: auto;">
+          </picture>
+
+          <div class="intro__content container">
+                <p class="intro__content-text">
+                    Modern technology and expert-class dentists
+                </p>
+                <h3 class="intro__content-title">
+                    get a brilliant smile for every day
+                </h3>
+                <a href="#" class="intro__content-link">
+                    GET
+                </a>
+                <div class="intro__buttons">
+                    <button type="button" class="intro__content-btn">
+                        <img src="./images/Arrow 1.png" alt="arrow">
+                    </button>
+                    <button type="button" class="intro__content-btn">
+                        <img src="./images/Arrow 2.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
 </body>
 </html>
