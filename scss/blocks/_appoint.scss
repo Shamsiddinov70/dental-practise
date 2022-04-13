@@ -1,0 +1,45 @@
+.appoint {
+
+    &__img {
+        margin-bottom: 19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        border-radius: 5px;
+        background: #FFD600;
+        width: 300px;
+        padding-top: 39px;
+        padding-bottom: 56px;
+    }
+
+    &__item:nth-child(2) {
+        background-color:  #FFE040;
+        padding-bottom: 31px;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 21px;
+        color: #272727;
+        font-weight: 400;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 25px;
+        color: #272727;
+        width: 427px;
+        font-weight: 300;
+        width: 227px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
