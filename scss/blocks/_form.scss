@@ -68,3 +68,26 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .form__item {
+        width: 485px;
+    }
+
+    .form input {
+        width: 415px;
+    }
+
+    .form__link {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 15px 58px;
+    }
+
+    .form__bottom-text {
+        font-size: 16px;
+        line-height: 20px;
+        width: 250px;
+    }
+}

@@ -43,3 +43,22 @@
         margin-right: auto;
     }
 }
+
+
+@media only screen and (max-width: 1080px) {
+    .appoint__text {
+        width: 175px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-appoint {
+        padding: 0;
+    }
+
+    .appoint__item {
+        padding-left: 33px;
+        padding-right: 33px;
+        width: 270px;
+    }
+}
